@@ -2,7 +2,6 @@ import axios from "axios";
 import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useForm } from "react-hook-form";
 
 function App() {
   const url = "http://localhost:3001/posts";
